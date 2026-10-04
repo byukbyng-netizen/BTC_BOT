@@ -1,0 +1,16 @@
+.env
+.evn
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+data/
+.venv/
+venv/
+.DS_Store
+*.sqlite3
+*.db
+*.log
