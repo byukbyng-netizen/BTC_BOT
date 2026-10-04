@@ -1,16 +1,41 @@
+# Secrets and local environment
 .env
 .evn
 .env.*
 !.env.example
+
+# Python caches and environments
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-data/
+*.py[codz]
+*$py.class
 .venv/
 venv/
-.DS_Store
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime data and local state
+data/
 *.sqlite3
 *.db
 *.log
+*.pid
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
